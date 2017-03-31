@@ -44,7 +44,7 @@ public class SearchActivity extends AppCompatActivity {
     private List<DataBean> mDataBeen = new ArrayList<>();
     private SearchAdapter mSearchAdapter;
     private String mKey;  //key值
-    private List<DataBean> mLoadMoreData;
+    private List<DataBean> mLoadMoreData = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
