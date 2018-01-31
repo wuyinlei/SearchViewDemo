@@ -3,7 +3,7 @@
 标签（空格分隔）： 开源项目
 
 ---
-###首先的效果图
+### 首先的效果图
 搜索到结果(这里我只是模拟数据,真正和服务器走得时候,返回来的数据都应该包含关键字的)<br>
 ![](http://ww1.sinaimg.cn/mw690/006jcGvzly1fe5zyz2w3mj30u01hcwi5.jpg)
 <br>
@@ -157,14 +157,14 @@
         holder.tv_title.setText(mFormatUtil.getResult());
     
 ```
-###Demo说明
+### Demo说明
 这里的本地的json是我自己人为定义的,而且在搜索的时候加入了自己的逻辑,如果是实际工程中需要自己根据自己的需求来进行变更的.相关显示不需要在意,这里只是给大家一个实现搜索的并且关键词高亮的一个思路。
 
-###Demo代码传送门
+### Demo代码传送门
 
 * https://github.com/wuyinlei/SearchViewDemo
 
-###参考文章
+### 参考文章
 
 * [android TextView 实现关键字高亮][1]
 
